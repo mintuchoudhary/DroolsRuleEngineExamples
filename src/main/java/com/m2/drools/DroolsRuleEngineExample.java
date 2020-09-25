@@ -6,24 +6,18 @@ import java.util.List;
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
-
-
 /**
  *  Drools is a Business Logic integration Platform (BLiP). Its standard way to handle the business logic
+ *  Note: Have to add in META-INF folder: kmodule.xml
  *Format:
  *
  *rule  <rule_name>
  *    <attribute> <value>
- *
  * when
  *       <conditions>
- *
  * then
  *       <actions>
  * end
- *
- *
- *
  */
 public class DroolsRuleEngineExample {
 
